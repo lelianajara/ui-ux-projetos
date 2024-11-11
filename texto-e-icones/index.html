@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <title>Texto e ícones</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background: #ff4081;
+        }
+
+        .container{
+            max-width: 1100px;
+            padding: 9 2%;
+            margin: 0 auto;
+        }
+
+        .servicos{
+            padding: 70px 0;
+        }
+
+        .container-single{
+            padding: 0 20px;
+            width: 33.3%;
+            float: left;
+            margin-bottom: 50px;
+        }
+
+        div.icon-round{
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 1px solid white;
+            position: relative;
+        }
+        div.icon-round i{
+            position: absolute;
+            font-size: 25px;
+            color: white;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);/*pesquise esse termo aqui*/
+        }
+
+        div.texto-descricao h2{
+            color: white;
+        }
+
+        div.texto-descricao p{
+            color: white;
+            font-size: 13px;
+        }
+
+        @media screen and (max-width:768px){
+            .container-single{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="servicos">
+        <div class="container">
+            <div class="container-single">
+                <div class="icon-round"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                <div class="texto-descricao">
+                    <h2>Lorem</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto possimus iste aperiam nesciunt perspiciatis cum eaque eius necessitatibus in mollitia nam, cupiditate, tempora officia accusantium minus blanditiis consequatur exercitationem itaque?</p>
+                </div>
+            </div><!--container-single-->
+            <div class="container-single">
+                <div class="icon-round"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                <div class="texto-descricao">
+                    <h2>Lorem</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto possimus iste aperiam nesciunt perspiciatis cum eaque eius necessitatibus in mollitia nam, cupiditate, tempora officia accusantium minus blanditiis consequatur exercitationem itaque?</p>
+                </div>
+            </div><!--container-single-->
+            <div class="container-single">
+                <div class="icon-round"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                <div class="texto-descricao">
+                    <h2>Lorem</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto possimus iste aperiam nesciunt perspiciatis cum eaque eius necessitatibus in mollitia nam, cupiditate, tempora officia accusantium minus blanditiis consequatur exercitationem itaque?</p>
+                </div>
+            </div><!--container-single-->
+            <div class="container-single">
+                <div class="icon-round"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                <div class="texto-descricao">
+                    <h2>Lorem</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto possimus iste aperiam nesciunt perspiciatis cum eaque eius necessitatibus in mollitia nam, cupiditate, tempora officia accusantium minus blanditiis consequatur exercitationem itaque?</p>
+                </div>
+            </div><!--container-single-->
+            <div class="clear"></div>
+        </div><!--container-->
+    </section>
+</body>
+</html>

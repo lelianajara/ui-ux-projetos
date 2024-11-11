@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.bg{
+    width: 100vw;
+    height: 48.3vw;
+    background-image: url('https://img.freepik.com/fotos-gratis/antecedentes-da-inseguranca-do-computador-ou-hacking-3d-ilustracao_1419-2806.jpg?t=st=1731246938~exp=1731250538~hmac=979a0db8489d17c4dc0baec344efec3a8d85155c87eeeee64bad132ce7fa2b89&w=1380');
+    background-size: cover;
+    background-position: center;
+}
+
+a.cta{
+    width: 95%;
+    max-width: 600px;
+    padding: 8px 20px;
+    text-align: center;
+    background: #e7426b;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+}
