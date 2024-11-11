@@ -3,9 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <title>Footer do site</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Open Sans";
+        }
+
+
+        .container{
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 2%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        section{
+            position: absolute;
+            bottom: 0;
+        }
+
+        footer.one{
+            padding: 20px 0;
+            width: 100%;
+            background: #5c6bc0;
+        }
+
+        .footer-single{
+            width: 33.3%;
+            padding: 0 15px;
+            color: white;
+        }
+
+        .footer-single h2{
+            font-weight: normal;
+            font-size: 20px;
+        }
+
+        .footer-single p {
+            font-size: 15px;
+            font-weight: 300px;
+        }
+
+        .social-media{
+            margin-top: 10px;
+        }
+
+        .footer-single a{
+            color: white;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+
+        footer.two{
+            background:#3949ab;
+            padding: 8px 0;
+            text-align: center;
+            color: white;
+        }
+
+        @media screen and (max-width: 768px){
+            .footer-single{
+                width: 100%;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+        }
+
+    </style>
 </head>
 <body>
-    
+    <section>
+        <footer class="one">
+            <div class="container">
+                <div class="footer-single">
+                    <h2>Sobre:</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In unde esse porro eligendi voluptatem rerum repudiandae architecto dicta nisi blanditiis a, magnam fugiat amet pariatur? Totam tenetur tempore pariatur odio.</p>
+                </div><!--footer-single-->
+                <div class="footer-single">
+                    <h2>Telefone</h2>
+                    <p><i class="fa fa-car"></i>(86)95555-5555</p>
+                    <p><i class="fa fa-car"></i>(86)95555-5555</p>
+            </div><!--footer-single-->
+            <div class="footer-single">
+                <h2>Conecte-se</h2>
+                <div class="redes-sociais">
+                    <a href="facebook.com"><i class="fa fa-linkedin-in"></i></a>
+                    <a href="facebook.com"><i class="fa fa-github"></i></a>
+                </div><!--redes-sociais-->
+            </div><!--footer-single-->
+        </div><!--container-->
+        </footer>
+            <footer class="two">
+                Todos os direitos reservados
+            </footer>
+    </section>
 </body>
 </html>
