@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+a{
+    text-decoration: none;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear{
+    clear:both;
+}
+
+header{
+    background: #5e3ea1;
+    padding: 10px 0;
+}
+
+header > .center{
+    display: flex;
+}
+
+.logo{
+    width: 50%;
+    color: white;
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu li{
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 13px;
+    
+}
+
+.menu a{
+    color: white;
+}
+
+section.texto-chamada{
+    background: #4c3282;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+
+section.texto-chamada h2,section.texto-chamada h3{
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+section.texto-chamada h2 > b{
+    color: rgb(231, 66, 107);
+}
